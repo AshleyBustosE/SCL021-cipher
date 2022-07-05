@@ -1,15 +1,16 @@
-//const cipher = {"ABCDEFGHIJKLMNOPQRSTUVWXYZ" 
+const cipher = { 
   // ...
-//};
+};
 
 //Asignaremos un array 
-var abecedario = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"] 
+//var abecedario = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"] 
 
-console.log(abecedario.lenght)
+//console.log(abecedario.lenght)
+//"ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 
 export default cipher;
 
-alert("Hola") 
+/*alert("Hola") 
 
-console.log("Me falto este mensaje que si")
+console.log("Me falto este mensaje que si")*/

@@ -1,0 +1,44 @@
+/*Para el estilo del fondo
+*/
+body {
+    background-color: grey;
+}
+
+/*Para el estilo del encabezado (título)
+*/
+h1 {
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+}
+
+/*Para el estilo del encabezado (subtítulo)
+*/
+p {
+    color: red;
+    font-size: 15px;
+}
+
+/*Para el estilo de los botones
+*/
+button{
+    background-color: white;
+}
+
+h3, p, input{
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    color: white;
+}
+
+input{
+    font-family: "Digital", sans-serif;
+    font-size: 1.5em;
+    background-color: black;
+    padding: 10px;
+}
+.rojo { color: red}
+.verde { color: green}
+div.centro{
+    text-align: center;
+}
