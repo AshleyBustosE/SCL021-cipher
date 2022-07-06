@@ -11,29 +11,49 @@ function inicio(){
      document.getElementById("cifrar").addEventListener("click", function(){
         let texto = document.getElementById("mensaje").value;
         let desplazamiento = document.getElementById("desplazamiento").value;
-        document.getElementById("mensaje2").value = cifrar(texto, desplazamiento);
+        document.getElementById("mensaje2").value = cifrar2(texto, desplazamiento);
      }, true);
      document.getElementById("descifrar").addEventListener("click", function(){
         let texto = document.getElementById("mensaje").value;
         let desplazamiento = document.getElementById("desplazamiento").value;
-        document.getElementById("mensaje2").value = descifrar(texto, desplazamiento);
+        document.getElementById("mensaje2").value = descifrar2(texto, desplazamiento);
      }, true);
 }
 
-function cifrar(texto, desplazamiento){
+/*function cifrar(texto, desplazamiento){
     let resultado = "";
     let letras = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
+  
     desplazamiento = (desplazamiento % 26 + 26) % 26;
-
+  
     if (texto){
         for (let i = 0; i<texto.lenght; i++){
-            
+            if (letras.indexOf(texto[i])!=-1){
+                let posicion = ((letras.indexOf(texto[i])+desplazamiento)%26);
+                resultado += letras[posicion];
+            }
+            else
+                resultado += texto[i];
         }
-
     }
+    return resultado;
+  }*/
+
+function cifrar2 (texto, desplazamiento){
+    if (!texto)
+        return "";
+    const letras = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    desplazamiento = (desplazamiento % 26 + 26) % 26;
+    return texto.replace(/[A-Z]/ig, c=> letras[(letras.indexOf(c)+desplazamiento)%26]);
 }
 
+function descifrar2 (texto, desplazamiento){
+    if (!texto)
+        return "";
+    const letras = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    desplazamiento = (desplazamiento % 26 - 26) % 26;
+    return texto.replace(/[A-Z]/ig, c=> letras[(letras.indexOf(c)-desplazamiento)%26]);
+}
 
 /*let Boton1 = document.getElementById("Boton1");
 let Boton2 = document.getElementById("Boton2");

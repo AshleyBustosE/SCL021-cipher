@@ -10,12 +10,12 @@ h1 {
     color: white;
     background-color: black;
     border: 1px solid white;
+    text-align: center;
 }
 
 /*Para el estilo del encabezado (subtítulo)
 */
 p {
-    color: red;
     font-size: 15px;
 }
 
@@ -25,7 +25,9 @@ button{
     background-color: white;
 }
 
-h3, p, input{
+/*Para el estilo de las palabras afuera y dentro del input
+*/
+h3, p, input {
     font-family: "Arial", sans-serif;
     text-align: center;
     color: white;
@@ -37,8 +39,12 @@ input{
     background-color: black;
     padding: 10px;
 }
-.rojo { color: red}
-.verde { color: green}
+/*.rojo { color: red}
+.verde { color: green}*/
 div.centro{
     text-align: center;
 }
+
+/*Entender líneas 18-19 con 30-33 y 30-33 con 36-40 y 43-44
+*/
+
