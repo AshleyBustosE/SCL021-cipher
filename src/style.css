@@ -33,18 +33,13 @@ h3, p, input {
     color: white;
 }
 
+/*Para el estilo dentro del input
+*/
 input{
     font-family: "Digital", sans-serif;
     font-size: 1.5em;
     background-color: black;
     padding: 10px;
 }
-/*.rojo { color: red}
-.verde { color: green}*/
-div.centro{
-    text-align: center;
-}
 
-/*Entender líneas 18-19 con 30-33 y 30-33 con 36-40 y 43-44
-*/
 
