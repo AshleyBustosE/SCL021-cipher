@@ -1,7 +1,7 @@
 /*Para el estilo del fondo
 */
 body {
-    background-color: grey;
+    background-image: url(7-silencio.jpg);
 }
 
 /*Para el estilo del encabezado (título)
@@ -40,6 +40,11 @@ input{
     font-size: 1.5em;
     background-color: black;
     padding: 10px;
+}
+
+.texto-borde {
+    -webkit-text-stroke: 2px red;
+    color: transparent;
 }
 
 
