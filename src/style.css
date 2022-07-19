@@ -1,7 +1,7 @@
 /*Para el estilo del fondo
 */
 body {
-    background-image: url(7-silencio.jpg);
+    background: linear-gradient(rgba(5, 7, 12, 0.70), rgba(5, 7, 12, 0.70)), url(7-silencio.jpg);
 }
 
 /*Para el estilo del encabezado (título)
