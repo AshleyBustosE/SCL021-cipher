@@ -41,10 +41,3 @@ input{
     background-color: black;
     padding: 10px;
 }
-
-.texto-borde {
-    -webkit-text-stroke: 2px red;
-    color: transparent;
-}
-
-
